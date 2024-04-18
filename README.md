@@ -1,6 +1,5 @@
 # kuscalla-lorawan
-# Preparing the README.md content based on the provided structure of the project documentation.
-readme_content = """
+
 # Sistema de Monitoreo Ambiental con LoRaWAN
 
 ## Descripción General
@@ -31,9 +30,3 @@ Este proyecto desarrolla un sistema de monitoreo ambiental utilizando la tecnolo
 - **Desarrollo Futuro**: Futuras versiones podrían incluir mejoras en la gestión de energía, uso de IA para el análisis de datos, y expansión de la capacidad de red LoRa para incluir más nodos.
 """
 
-# Saving the README.md to a file
-readme_file_path = '/mnt/data/README.md'
-with open(readme_file_path, 'w') as file:
-    file.write(readme_content)
-
-readme_file_path
